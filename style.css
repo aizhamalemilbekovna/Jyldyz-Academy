@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.hero h1 {
+  text-align: center;
+}
+
+.hero img {
+    width: 80px;
+    height: 80px;
+    align-items: center;
+} 
+
+header, footer {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+nav button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #6096B4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #C4D7E0;
+}
+
+#mission-page h2, #about-page h1, #goal-page h1, #form-page h1 {
+  margin-top: 50px;
+}
+
+#mission-page p{
+  margin-top: 20px;
+}
+
+#inf-mission{
+  display: flex;
+  margin: 20px auto;
+}
+
+#inf-mission img{
+  width: 640px;
+  height: 280px;
+  display: block; 
+}
+
+form {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+/* Mission Page */
+#mission-page h2 {
+  font-size: 34px;
+  margin: 30px 0;
+}
+
+#mission-page p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+#mission-page img {
+  display: block;
+}
+
+#mission-page button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #6096B4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* About Page */
+#about-page h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+#about-page p {
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.about-us {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-img img{
+  width: 610px;
+  height: 420px;
+  display: block;
+}
+
+.about-inf p {
+  padding: 9px;
+  text-align: center;
+}
+
+/* Goal Page */
+#goal-page h2 {
+  text-align: center;
+  font-size: 34px;
+  margin: 20px 0;
+}
+
+.goals {
+  display: flex;
+  margin: 30px 0;
+}
+
+.goals-1 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.goals-2 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Form Page */
+#form-page h2 {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+#form-page form {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#form-page form input, #form-page form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#form-page form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #6096B4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  /* Mission Page */
+  #mission-page h2 {
+    font-size: 30px;
+  }
+
+  #mission-page img {
+    width: 80%;
+  }
+
+  /* About Page */
+  #about-page h2 {
+    font-size: 30px;
+  }
+
+  /* Goal Page */
+  #goal-page h2 {
+    font-size: 30px;
+  }
+
+  /* Form Page */
+  #form-page form {
+    width: 80%;
+  }
+}
